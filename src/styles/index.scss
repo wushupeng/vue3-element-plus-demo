@@ -1,0 +1,36 @@
+.button {
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  border: 1px solid #e1e4e8;
+}
+
+.box-container {
+  border:1px solid pink;
+}
+.box {
+  height: 200px;
+  width: 200px;
+  position:absolute;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+
+.box-container::after{
+  content:'';
+  display: table;
+  clear: both;
+}
+
+// .box-container::before{
+//   content:'';
+//   display: block;
+//   clear:both;
+// }
